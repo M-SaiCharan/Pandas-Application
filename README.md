@@ -1,4 +1,4 @@
-# Iris Data Analysis Tool
+# Data Analysis using Pandas
 
 This Python script provides an interactive tool for performing basic analytical tasks on the Iris dataset or any other CSV dataset containing numerical values. The tool is built using Python and the Pandas, NumPy, and Matplotlib libraries.
 
