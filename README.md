@@ -7,7 +7,7 @@ This Python script provides an interactive tool for performing basic analytical 
 ## Features
 
 1. **Data Exploration**:
-   - View the entire dataset loaded into the DataFrame.
+   - View the entire dataset or information about the dataset loaded into the DataFrame.
 
 2. **Mathematical Operations**:
    - Calculate **Mean**, **Median**, **Mode**, and **Sum** for a specified column.
@@ -34,11 +34,13 @@ Ensure you have the following Python libraries installed:
 - **Seaborn**
 
 You can install them using pip:
+
 ```bash
-pip install pandas numpy matplotlib seaborn
+pip install -r requirements.txt
 ```
 
 ### Dataset:
+
 - Place the dataset `Iris - all-numbers.csv` in the same directory as the script or update the `data_path` variable with the correct path.
 
 ---
@@ -48,10 +50,12 @@ pip install pandas numpy matplotlib seaborn
 1. Clone the repository or download the script.
 2. Ensure the dataset `Iris - all-numbers.csv` is in the correct location.
 3. Run the script:
+
    ```bash
    python main.py
    ```
-4. Follow the interactive menu to perform various operations:
+   
+5. Follow the interactive menu to perform various operations:
    - **Math Operations**: Enter column names to calculate statistics.
    - **Graphical Visualizations**: Enter X and Y columns to plot graphs.
 
