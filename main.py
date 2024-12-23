@@ -144,7 +144,7 @@ def graph():
 
     elif choice == 6:
         plt.figure(figsize=(10, 8))
-        correlation_matrix = df.corr()  # Calculate the correlation matrix
+        correlation_matrix = df.corr()  
         sns.heatmap(correlation_matrix, annot=True, fmt=".2f", cmap='coolwarm', square=True, cbar=True)
         plt.title("Heat Map of Correlation Matrix")
         plt.show()
